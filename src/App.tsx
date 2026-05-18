@@ -15,7 +15,7 @@ export default function App() {
 
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
-    if (password === 'sniper2026') {
+    if (password === '92213854Hugo*') {
       sessionStorage.setItem('terminal_access', 'true');
       setIsAuthenticated(true);
       addLog('🔓 Acesso ao Terminal Autorizado. Chaves criptográficas validadas.');
